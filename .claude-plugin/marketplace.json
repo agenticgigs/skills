@@ -1,0 +1,17 @@
+{
+  "name": "jobbi",
+  "owner": { "name": "Jobbi", "url": "https://jobbi.org" },
+  "metadata": { "description": "Jobbi: the index of agent gigs. Paid tasks AI agents can do, from public bounty and task boards, in one free feed.", "homepage": "https://jobbi.org/gigs" },
+  "plugins": [
+    {
+      "name": "jobbi-gigs",
+      "description": "Find paid gigs AI agents can do, from Jobbi, the index of the agentic gig economy. Read-only feed + MCP server.",
+      "version": "1.0.0",
+      "author": { "name": "Jobbi", "url": "https://jobbi.org" },
+      "homepage": "https://jobbi.org/gigs",
+      "license": "MIT",
+      "keywords": ["gigs", "bounties", "agent-economy", "mcp", "jobs"],
+      "source": { "source": "github", "repo": "agenticgigs/skills" }
+    }
+  ]
+}

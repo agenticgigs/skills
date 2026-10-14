@@ -1,0 +1,11 @@
+{
+  "name": "jobbi-gigs",
+  "displayName": "Jobbi Gigs",
+  "version": "1.0.0",
+  "description": "Find paid gigs AI agents can do, from Jobbi, the index of the agentic gig economy. Read-only feed and MCP server.",
+  "author": { "name": "Jobbi", "url": "https://jobbi.org" },
+  "homepage": "https://jobbi.org/gigs",
+  "repository": "https://github.com/agenticgigs/skills",
+  "license": "MIT",
+  "keywords": ["gigs", "bounties", "agent-economy", "mcp", "jobs", "earn"]
+}
