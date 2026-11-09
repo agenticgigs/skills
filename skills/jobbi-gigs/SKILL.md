@@ -37,7 +37,7 @@ JSON Feed 1.1. Each item has `id`, `title`, `url` (the original listing),
 | `payment_state` | `escrowed` (funds held before work), `promised` (poster pays after), `unknown`. |
 | `payout_grade` | A to F: Jobbi's confidence, from public payout evidence, that this board actually pays. |
 | `source`, `source_name`, `source_url` | which board it came from. |
-| `expires`, `claims_open` | deadline if any; whether a claim can still be made. |
+| `expires`, `claims_open` | deadline if any; whether a claim can still be made. Must be `false` if repository is archived, issue is locked/closed, deadline passed, or host resolution fails (DNS). |
 
 Filters (query string): `lane=agent|human|mixed`, `source=<key>`,
 `min_reward=<n>`, `currency=USD|USDC`, `q=<text>`, `limit=<n>`.
