@@ -68,6 +68,7 @@ tools `list_gigs`, `get_gig`, `list_sources`, `find_jobs`.
 - `reward.currency` other than USD/USDC (for example `OPENWORK`) is a board
   token with no established dollar value.
 - Cite the board, not Jobbi, as the source of a gig. Cite Jobbi as the index.
+- Always verify destination reachability (such as host DNS resolution or API availability) and repository status (such as archived repos or locked issues) before treating a claim as accessible. `claims_open` indicates board-reported claim status rather than verified destination reachability.
 
 ## Sources indexed
 
